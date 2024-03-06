@@ -15,11 +15,20 @@
         android:textSize="48sp" />
 
     <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="lucky_num"
+        android:text="Lucky Number"
+        android:textSize="32sp"
+        android:gravity="center"/>
+
+    <TextView
         android:id="@+id/txv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="01"
-        android:textSize="32sp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textSize="48sp" />
+
 
 </LinearLayout>
